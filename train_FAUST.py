@@ -36,7 +36,7 @@ opt.LATENT_SPACE = 256 #dimension of the full (pose+style) latent space
 opt.POSE_SIZE = 64 #number of dimension dedicated to pose encoding 
 
 opt.LOCAL_TH = 0.1
-opt.LEARNING_RATE = 1e-4
+opt.LEARNING_RATE = 2e-5
 
 
 ## get a randomly selected samples inside the same randomly selected  class
@@ -209,7 +209,7 @@ virtual_batch_size = 20 #multiplier applied to the interations number (should be
 vae = PointNetVAE(opt).to(device)
 
 i=0
-optimizer = torch.optim.Adam(vae.parameters(), lr=opt.LEARNING_RATE*0.1)
+optimizer = torch.optim.Adam(vae.parameters(), lr=opt.LEARNING_RATE)
 
 total_loss=0
 losses = []
