@@ -1,6 +1,6 @@
 # LIMP
 
-Implementation of the paper: **Cosmo et al.  _"Isospectralization, or how to hear shape, style, and correspondence."_ ECCV 2020.**
+Implementation of the paper: **Cosmo et al.  _"LIMP: Learning Latent Shape Representations with Metric Preservation Priors."_ ECCV 2020.**
 <p align="center">
  <a href="http://www.youtube.com/watch?feature=player_embedded&v=NPE_uey-dXo
 " target="_blank"><img src="http://img.youtube.com/vi/NPE_uey-dXo/0.jpg" 
